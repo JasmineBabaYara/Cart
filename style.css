@@ -1,0 +1,19 @@
+.items{
+    display: flex;
+    margin-left: 35rem;
+    font-size: 1.2rem;
+}
+
+h1{
+    margin-left: 37rem;
+}
+
+button{
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.cart-items{
+    margin-left: 38rem;
+    font-size: 1.5rem;
+}

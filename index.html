@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div>
+        <h1>Items</h1><hr>
+        <div class="items">
+            <p>Apple</p>
+            <button id="apple-btn" onclick="addapple()">Add to cart</button>
+        </div>
+        <div class="items">
+            <p>Banana</p>
+            <button id="banana-btn" onclick="addbanana()">Add to cart</button>
+        </div>
+        <div class="items">
+            <p>Carrot</p>
+            <button id="carrot-btn" onclick="addcarrot()">Add to cart</button>
+        </div>
+        <div class="items">
+            <p>Desert</p>
+            <button id="desert-btn" onclick="adddesert()">Add to cart</button>
+        </div><hr>
+
+        <div id="list-items">
+            <h1>Cart</h1><hr>
+            <div class="cart-items">
+                <p id="apple"></p>
+                <p id="banana"></p>
+                <p id="carrot"></p>
+                <p id="desert"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
