@@ -1,4 +1,3 @@
-const applebutton = document.getElementById('apple-btn');
 const apple = document.getElementById('apple');
 const banana = document.getElementById('banana');
 const carrot = document.getElementById('carrot');
